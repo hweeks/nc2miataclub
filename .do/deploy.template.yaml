@@ -1,5 +1,7 @@
 spec:
   name: nc2miataclub
+  features:
+    - buildpack-stack=ubuntu-22
   services:
   - environment_slug: node-js
     git:

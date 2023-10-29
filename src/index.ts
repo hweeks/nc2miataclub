@@ -14,6 +14,8 @@ app.use('*', (req: Request, res: Response) => {
   res.sendFile(resolve(appDir, "index.html"));
 })
 
-app.listen(3000, () => { 
-  console.log('op on 3000')
+const finalPort = process.env.PORT || '3000'
+
+app.listen(finalPort, () => { 
+  console.log('op on ', finalPort)
 })

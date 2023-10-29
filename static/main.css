@@ -36,3 +36,17 @@
   height: calc(100vh - 50px);
   width: 100vw;
 }
+
+.single-item {}
+
+.open-swf {
+  height: 80vh;
+}
+
+.single-item object {
+  display: none;
+}
+
+.single-item embed {
+  display: none;
+}
